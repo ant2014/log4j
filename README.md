@@ -4,15 +4,15 @@
 
 ## 说明
 
-### log4j.properties
+### 一、log4j.properties
 
 设定了三个logger
 
-* test ：用于开发环境
-* system ：用于生产环境
-* other ：用于默认没有使用logger的日志输出，及其它使用Logger.getLogger(A1.Class)的调用
+- test ：用于开发环境，日志输出在控制台
+- system ：用于生产环境，日志输出在logs/system.log中
+- other ：默认的rootLogger日志输出，及其它使用Logger.getLogger(A1.Class)的调用，日志输出在logs/other.log中
 
-### LogWrite
+### 二、LogWriter.java
 
 log4j的工具类，使用方法
 
