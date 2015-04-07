@@ -1,4 +1,4 @@
-package org.jiaozhu.log4j.util;
+package me.jiaozhu.log4j.util;
 
 import org.apache.log4j.Logger;
 

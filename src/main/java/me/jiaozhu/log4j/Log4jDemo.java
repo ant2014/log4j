@@ -1,7 +1,7 @@
-package org.jiaozhu.log4j;
+package me.jiaozhu.log4j;
 
+import me.jiaozhu.log4j.util.LogWriter;
 import org.apache.log4j.Logger;
-import org.jiaozhu.log4j.util.LogWriter;
 
 /**
  * Author: jiaozhu
